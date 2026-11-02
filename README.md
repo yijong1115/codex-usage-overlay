@@ -2,9 +2,15 @@
 
 A small, unofficial Windows companion showing your remaining **five-hour** and **weekly** Codex allowance above the profile area. Includes a sleeping cat, custom images, automatic ring colours, reset details and light/dark appearance.
 
-<img src="docs/preview.png" width="88" alt="Slim widget preview showing sample usage of 83% and 40% remaining">
+This project is independent of OpenAI and does not modify the Codex application.
 
-The preview uses sample values. This project is independent of OpenAI and does not modify the Codex application.
+## Screenshots
+
+| Slim widget | Image settings | Click for usage details |
+| --- | --- | --- |
+| <img src="docs/preview.png" width="88" alt="Slim cat widget with five-hour and weekly usage rings"> | <img src="docs/settings.png" width="330" alt="Image settings with cat preview, recommended image dimensions, chooser and Save button"> | <img src="docs/usage-details.png" width="250" alt="Usage details showing sample remaining allowance, reset time and account source"> |
+
+All pictures use **sample usage and a fictional account**. Your own percentages and reset times will differ. Click a picture to view it at full size.
 
 ## Download and run
 
