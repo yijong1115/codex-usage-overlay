@@ -1,0 +1,27 @@
+# Local preferences, copied personal images and startup ownership
+/data/
+# Build output, live diagnostics and test fixtures
+/out/
+/artifacts/
+/maintainer/
+# Private development records are not part of the public project
+/DESIGN.md
+/PLAN.md
+/PROGRESS.md
+/RESEARCH.md
+/VERIFICATION.md
+# Credentials, editor state and local logs
+.env
+.env.*
+auth.json
+credentials.json
+*.pem
+*.key
+*.pfx
+*.pdb
+*.log
+*.user
+.codex/
+.vs/
+.idea/
+
