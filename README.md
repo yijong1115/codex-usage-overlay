@@ -4,6 +4,8 @@ A small, unofficial Windows companion showing your remaining **five-hour** and *
 
 This project is independent of OpenAI and does not modify the Codex application.
 
+**Quick setup:** [Install with Codex](#option-1-install-with-codex-quick) · [Download manually](#option-2-download-and-run-manually)
+
 ## Screenshots
 
 | Slim widget | Image settings | Click for usage details |
@@ -12,7 +14,27 @@ This project is independent of OpenAI and does not modify the Codex application.
 
 All pictures use **sample usage and a fictional account**. Your own percentages and reset times will differ. Click a picture to view it at full size.
 
-## Download and run
+## Installation options
+
+### Option 1: Install with Codex (quick)
+
+Let Codex handle the download and setup on your Windows computer:
+
+1. Open a **local Codex chat** on the Windows computer where you want the widget.
+2. Copy the request below, paste it into Codex, and send it.
+3. Let Codex check the requirements, verify the release checksum, extract the portable folder and launch the widget. Approve download/file/launch access if your permission settings ask for it.
+
+```text
+Install and launch this Windows widget for me:
+https://github.com/yijong1115/codex-usage-overlay
+Follow its README and keep Windows startup disabled.
+```
+
+You can also paste the repository link and say **“Install this widget for me.”** The installation request gives Codex a clear task; a link by itself may only prompt a repository review. This needs a local agent with file, command and internet access, not a cloud-only chat. Your own Codex desktop sign-in is used, and Windows x64/.NET requirements still apply. No API key is needed, and startup stays off unless you explicitly enable it.
+
+Codex may ask for approvals according to the user's current settings; this option does not bypass them. See the [official OpenAI documentation on permissions](https://learn.chatgpt.com/docs/permission-modes).
+
+### Option 2: Download and run manually
 
 **[Download the Windows x64 portable ZIP](https://github.com/yijong1115/codex-usage-overlay/releases/latest)**
 
